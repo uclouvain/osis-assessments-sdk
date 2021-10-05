@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 
 # **get_current_session**
-> file_type get_current_session()
+> CurrentSession get_current_session()
 
 
 
@@ -25,6 +25,7 @@ import osis_assessments_sdk
 from osis_assessments_sdk.api import score_encoding_api
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
 from osis_assessments_sdk.model.error import Error
+from osis_assessments_sdk.model.current_session import CurrentSession
 from pprint import pprint
 # Defining the host is optional and defaults to https://dev.osis.uclouvain.be/api/v1/assessments
 # See configuration.py for a list of all supported configuration parameters.
@@ -75,7 +76,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-**file_type**
+[**CurrentSession**](CurrentSession.md)
 
 ### Authorization
 
@@ -84,7 +85,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/pdf, application/json
+ - **Accept**: application/json
 
 
 ### HTTP response details

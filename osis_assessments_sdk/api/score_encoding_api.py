@@ -22,6 +22,7 @@ from osis_assessments_sdk.model_utils import (  # noqa: F401
     validate_and_convert_types
 )
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
+from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
 
 
@@ -78,7 +79,7 @@ class ScoreEncodingApi(object):
                 async_req (bool): execute request asynchronously
 
             Returns:
-                file_type
+                CurrentSession
                     If the method is called asynchronously, returns the request
                     thread.
             """
@@ -105,7 +106,7 @@ class ScoreEncodingApi(object):
 
         self.get_current_session = _Endpoint(
             settings={
-                'response_type': (file_type,),
+                'response_type': (CurrentSession,),
                 'auth': [
                     'Token'
                 ],
@@ -166,7 +167,6 @@ class ScoreEncodingApi(object):
             },
             headers_map={
                 'accept': [
-                    'application/pdf',
                     'application/json'
                 ],
                 'content_type': [],
