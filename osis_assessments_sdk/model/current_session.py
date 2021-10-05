@@ -82,7 +82,7 @@ class CurrentSession(ModelNormal):
         """
         return {
             'academic_year': (str,),  # noqa: E501
-            'session_number': (int,),  # noqa: E501
+            'month_session_name': (str,),  # noqa: E501
         }
 
     @cached_property
@@ -92,7 +92,7 @@ class CurrentSession(ModelNormal):
 
     attribute_map = {
         'academic_year': 'academic_year',  # noqa: E501
-        'session_number': 'session_number',  # noqa: E501
+        'month_session_name': 'month_session_name',  # noqa: E501
     }
 
     read_only_vars = {
@@ -137,7 +137,7 @@ class CurrentSession(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             academic_year (str): [optional]  # noqa: E501
-            session_number (int): [optional]  # noqa: E501
+            month_session_name (str): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
@@ -220,7 +220,7 @@ class CurrentSession(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             academic_year (str): [optional]  # noqa: E501
-            session_number (int): [optional]  # noqa: E501
+            month_session_name (str): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
