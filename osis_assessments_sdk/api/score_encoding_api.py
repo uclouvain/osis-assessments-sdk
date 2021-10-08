@@ -22,9 +22,9 @@ from osis_assessments_sdk.model_utils import (  # noqa: F401
     validate_and_convert_types
 )
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
-from osis_assessments_sdk.model.array_of_score_responsible_person import ArrayOfScoreResponsiblePerson
 from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
+from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
 
 
 class ScoreEncodingApi(object):
@@ -219,7 +219,7 @@ class ScoreEncodingApi(object):
                 async_req (bool): execute request asynchronously
 
             Returns:
-                ArrayOfScoreResponsiblePerson
+                ScoreResponsiblePerson
                     If the method is called asynchronously, returns the request
                     thread.
             """
@@ -246,7 +246,7 @@ class ScoreEncodingApi(object):
 
         self.get_score_responsible_list = _Endpoint(
             settings={
-                'response_type': (ArrayOfScoreResponsiblePerson,),
+                'response_type': (ScoreResponsiblePerson,),
                 'auth': [
                     'Token'
                 ],
@@ -318,6 +318,7 @@ class ScoreEncodingApi(object):
             },
             headers_map={
                 'accept': [
+                    'array',
                     'application/json'
                 ],
                 'content_type': [],

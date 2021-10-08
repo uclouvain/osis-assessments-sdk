@@ -99,7 +99,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_score_responsible_list**
-> ArrayOfScoreResponsiblePerson get_score_responsible_list()
+> ScoreResponsiblePerson get_score_responsible_list()
 
 
 
@@ -113,8 +113,8 @@ import time
 import osis_assessments_sdk
 from osis_assessments_sdk.api import score_encoding_api
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
-from osis_assessments_sdk.model.array_of_score_responsible_person import ArrayOfScoreResponsiblePerson
 from osis_assessments_sdk.model.error import Error
+from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
 from pprint import pprint
 # Defining the host is optional and defaults to https://dev.osis.uclouvain.be/api/v1/assessments
 # See configuration.py for a list of all supported configuration parameters.
@@ -171,7 +171,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**ArrayOfScoreResponsiblePerson**](ArrayOfScoreResponsiblePerson.md)
+[**ScoreResponsiblePerson**](ScoreResponsiblePerson.md)
 
 ### Authorization
 
@@ -180,7 +180,7 @@ Name | Type | Description  | Notes
 ### HTTP request headers
 
  - **Content-Type**: Not defined
- - **Accept**: application/json
+ - **Accept**: array, application/json
 
 
 ### HTTP response details

@@ -10,7 +10,6 @@
 # sys.setrecursionlimit(n)
 
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
-from osis_assessments_sdk.model.array_of_score_responsible_person import ArrayOfScoreResponsiblePerson
 from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
 from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson

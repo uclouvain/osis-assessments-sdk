@@ -3,7 +3,6 @@
 .travis.yml
 README.md
 docs/AcceptedLanguageEnum.md
-docs/ArrayOfScoreResponsiblePerson.md
 docs/CurrentSession.md
 docs/Error.md
 docs/ScoreEncodingApi.md
@@ -18,7 +17,6 @@ osis_assessments_sdk/configuration.py
 osis_assessments_sdk/exceptions.py
 osis_assessments_sdk/model/__init__.py
 osis_assessments_sdk/model/accepted_language_enum.py
-osis_assessments_sdk/model/array_of_score_responsible_person.py
 osis_assessments_sdk/model/current_session.py
 osis_assessments_sdk/model/error.py
 osis_assessments_sdk/model/score_responsible_person.py

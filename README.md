@@ -51,9 +51,9 @@ import osis_assessments_sdk
 from pprint import pprint
 from osis_assessments_sdk.api import score_encoding_api
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
-from osis_assessments_sdk.model.array_of_score_responsible_person import ArrayOfScoreResponsiblePerson
 from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
+from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
 # Defining the host is optional and defaults to https://dev.osis.uclouvain.be/api/v1/assessments
 # See configuration.py for a list of all supported configuration parameters.
 configuration = osis_assessments_sdk.Configuration(
@@ -104,7 +104,6 @@ Class | Method | HTTP request | Description
 ## Documentation For Models
 
  - [AcceptedLanguageEnum](docs/AcceptedLanguageEnum.md)
- - [ArrayOfScoreResponsiblePerson](docs/ArrayOfScoreResponsiblePerson.md)
  - [CurrentSession](docs/CurrentSession.md)
  - [Error](docs/Error.md)
  - [ScoreResponsiblePerson](docs/ScoreResponsiblePerson.md)
