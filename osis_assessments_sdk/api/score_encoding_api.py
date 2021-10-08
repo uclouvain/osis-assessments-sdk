@@ -219,7 +219,7 @@ class ScoreEncodingApi(object):
                 async_req (bool): execute request asynchronously
 
             Returns:
-                ScoreResponsiblePerson
+                [ScoreResponsiblePerson]
                     If the method is called asynchronously, returns the request
                     thread.
             """
@@ -246,7 +246,7 @@ class ScoreEncodingApi(object):
 
         self.get_score_responsible_list = _Endpoint(
             settings={
-                'response_type': (ScoreResponsiblePerson,),
+                'response_type': ([ScoreResponsiblePerson],),
                 'auth': [
                     'Token'
                 ],
@@ -318,7 +318,6 @@ class ScoreEncodingApi(object):
             },
             headers_map={
                 'accept': [
-                    'array',
                     'application/json'
                 ],
                 'content_type': [],
