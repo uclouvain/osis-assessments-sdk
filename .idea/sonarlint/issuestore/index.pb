@@ -9,3 +9,7 @@
 setup.py,8/e/8e2edce0d507e1297474f25c00cae94258db38d8
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+^
+.osis_assessments_sdk/api/score_encoding_api.py,d/b/db4d8708f91dab7f6d5a9cfd296bf22731d18083
+R
+"osis_assessments_sdk/api_client.py,3/4/34779b6576e71eeed930fb12edb5f639cf71a374

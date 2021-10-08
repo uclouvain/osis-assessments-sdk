@@ -191,6 +191,8 @@ class ScoreEncodingApi(object):
 
 
             Keyword Args:
+                learning_unit_codes ([str]): [optional]
+                year (int): [optional]
                 accept_language (AcceptedLanguageEnum): The header advertises which languages the client is able to understand, and which locale variant is preferred. (By languages, we mean natural languages, such as English, and not programming languages.) . [optional]
                 x_user_first_name (str): [optional]
                 x_user_last_name (str): [optional]
@@ -255,6 +257,8 @@ class ScoreEncodingApi(object):
             },
             params_map={
                 'all': [
+                    'learning_unit_codes',
+                    'year',
                     'accept_language',
                     'x_user_first_name',
                     'x_user_last_name',
@@ -275,6 +279,10 @@ class ScoreEncodingApi(object):
                 'allowed_values': {
                 },
                 'openapi_types': {
+                    'learning_unit_codes':
+                        ([str],),
+                    'year':
+                        (int,),
                     'accept_language':
                         (AcceptedLanguageEnum,),
                     'x_user_first_name':
@@ -287,6 +295,8 @@ class ScoreEncodingApi(object):
                         (str,),
                 },
                 'attribute_map': {
+                    'learning_unit_codes': 'learning_unit_codes',
+                    'year': 'year',
                     'accept_language': 'Accept-Language',
                     'x_user_first_name': 'X-User-FirstName',
                     'x_user_last_name': 'X-User-LastName',
@@ -294,6 +304,8 @@ class ScoreEncodingApi(object):
                     'x_user_global_id': 'X-User-GlobalID',
                 },
                 'location_map': {
+                    'learning_unit_codes': 'query',
+                    'year': 'query',
                     'accept_language': 'header',
                     'x_user_first_name': 'header',
                     'x_user_last_name': 'header',
@@ -301,6 +313,7 @@ class ScoreEncodingApi(object):
                     'x_user_global_id': 'header',
                 },
                 'collection_format_map': {
+                    'learning_unit_codes': 'multi',
                 }
             },
             headers_map={

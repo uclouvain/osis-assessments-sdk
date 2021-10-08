@@ -137,6 +137,10 @@ configuration.api_key['Token'] = 'YOUR_API_KEY'
 with osis_assessments_sdk.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = score_encoding_api.ScoreEncodingApi(api_client)
+    learning_unit_codes = [
+        "learning_unit_codes_example",
+    ] # [str] |  (optional)
+    year = 1 # int |  (optional)
     accept_language = AcceptedLanguageEnum("en") # AcceptedLanguageEnum | The header advertises which languages the client is able to understand, and which locale variant is preferred. (By languages, we mean natural languages, such as English, and not programming languages.)  (optional)
     x_user_first_name = "X-User-FirstName_example" # str |  (optional)
     x_user_last_name = "X-User-LastName_example" # str |  (optional)
@@ -146,7 +150,7 @@ with osis_assessments_sdk.ApiClient(configuration) as api_client:
     # example passing only required values which don't have defaults set
     # and optional values
     try:
-        api_response = api_instance.get_score_responsible_list(accept_language=accept_language, x_user_first_name=x_user_first_name, x_user_last_name=x_user_last_name, x_user_email=x_user_email, x_user_global_id=x_user_global_id)
+        api_response = api_instance.get_score_responsible_list(learning_unit_codes=learning_unit_codes, year=year, accept_language=accept_language, x_user_first_name=x_user_first_name, x_user_last_name=x_user_last_name, x_user_email=x_user_email, x_user_global_id=x_user_global_id)
         pprint(api_response)
     except osis_assessments_sdk.ApiException as e:
         print("Exception when calling ScoreEncodingApi->get_score_responsible_list: %s\n" % e)
@@ -157,6 +161,8 @@ with osis_assessments_sdk.ApiClient(configuration) as api_client:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
+ **learning_unit_codes** | **[str]**|  | [optional]
+ **year** | **int**|  | [optional]
  **accept_language** | **AcceptedLanguageEnum**| The header advertises which languages the client is able to understand, and which locale variant is preferred. (By languages, we mean natural languages, such as English, and not programming languages.)  | [optional]
  **x_user_first_name** | **str**|  | [optional]
  **x_user_last_name** | **str**|  | [optional]
