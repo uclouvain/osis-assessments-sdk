@@ -82,7 +82,9 @@ class ScoreResponsiblePerson(ModelNormal):
         """
         return {
             'learning_unit_acronym': (str,),  # noqa: E501
+            'year': (int,),  # noqa: E501
             'full_name': (str,),  # noqa: E501
+            'global_id': (str,),  # noqa: E501
         }
 
     @cached_property
@@ -92,7 +94,9 @@ class ScoreResponsiblePerson(ModelNormal):
 
     attribute_map = {
         'learning_unit_acronym': 'learning_unit_acronym',  # noqa: E501
+        'year': 'year',  # noqa: E501
         'full_name': 'full_name',  # noqa: E501
+        'global_id': 'global_id',  # noqa: E501
     }
 
     read_only_vars = {
@@ -137,7 +141,9 @@ class ScoreResponsiblePerson(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             learning_unit_acronym (str): [optional]  # noqa: E501
+            year (int): Year of learning unit. [optional]  # noqa: E501
             full_name (str): [optional]  # noqa: E501
+            global_id (str): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
@@ -220,7 +226,9 @@ class ScoreResponsiblePerson(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             learning_unit_acronym (str): [optional]  # noqa: E501
+            year (int): Year of learning unit. [optional]  # noqa: E501
             full_name (str): [optional]  # noqa: E501
+            global_id (str): [optional]  # noqa: E501
         """
 
         _check_type = kwargs.pop('_check_type', True)
