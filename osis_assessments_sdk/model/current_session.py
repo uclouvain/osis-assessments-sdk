@@ -82,6 +82,7 @@ class CurrentSession(ModelNormal):
         """
         return {
             'academic_year': (str,),  # noqa: E501
+            'year': (int,),  # noqa: E501
             'month_session_name': (str,),  # noqa: E501
         }
 
@@ -92,6 +93,7 @@ class CurrentSession(ModelNormal):
 
     attribute_map = {
         'academic_year': 'academic_year',  # noqa: E501
+        'year': 'year',  # noqa: E501
         'month_session_name': 'month_session_name',  # noqa: E501
     }
 
@@ -137,6 +139,7 @@ class CurrentSession(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             academic_year (str): [optional]  # noqa: E501
+            year (int): [optional]  # noqa: E501
             month_session_name (str): [optional]  # noqa: E501
         """
 
@@ -220,6 +223,7 @@ class CurrentSession(ModelNormal):
                                 through its discriminator because we passed in
                                 _visited_composed_classes = (Animal,)
             academic_year (str): [optional]  # noqa: E501
+            year (int): [optional]  # noqa: E501
             month_session_name (str): [optional]  # noqa: E501
         """
 
