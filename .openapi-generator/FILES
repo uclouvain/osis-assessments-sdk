@@ -7,6 +7,7 @@ docs/CurrentSession.md
 docs/Error.md
 docs/ScoreEncodingApi.md
 docs/ScoreResponsiblePerson.md
+docs/SessionExam.md
 git_push.sh
 osis_assessments_sdk/__init__.py
 osis_assessments_sdk/api/__init__.py
@@ -20,6 +21,7 @@ osis_assessments_sdk/model/accepted_language_enum.py
 osis_assessments_sdk/model/current_session.py
 osis_assessments_sdk/model/error.py
 osis_assessments_sdk/model/score_responsible_person.py
+osis_assessments_sdk/model/session_exam.py
 osis_assessments_sdk/model_utils.py
 osis_assessments_sdk/models/__init__.py
 osis_assessments_sdk/rest.py
@@ -28,4 +30,5 @@ setup.cfg
 setup.py
 test-requirements.txt
 test/__init__.py
+test/test_session_exam.py
 tox.ini

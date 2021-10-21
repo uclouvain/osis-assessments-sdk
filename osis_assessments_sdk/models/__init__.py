@@ -13,3 +13,4 @@ from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEn
 from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
 from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
+from osis_assessments_sdk.model.session_exam import SessionExam

@@ -54,6 +54,7 @@ from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEn
 from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
 from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
+from osis_assessments_sdk.model.session_exam import SessionExam
 # Defining the host is optional and defaults to https://dev.osis.uclouvain.be/api/v1/assessments
 # See configuration.py for a list of all supported configuration parameters.
 configuration = osis_assessments_sdk.Configuration(
@@ -96,6 +97,8 @@ All URIs are relative to *https://dev.osis.uclouvain.be/api/v1/assessments*
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
 *ScoreEncodingApi* | [**get_current_session**](docs/ScoreEncodingApi.md#get_current_session) | **GET** /current_session/ | 
+*ScoreEncodingApi* | [**get_next_session**](docs/ScoreEncodingApi.md#get_next_session) | **GET** /next_session/ | 
+*ScoreEncodingApi* | [**get_previous_session**](docs/ScoreEncodingApi.md#get_previous_session) | **GET** /previous_session/ | 
 *ScoreEncodingApi* | [**get_score_responsible_list**](docs/ScoreEncodingApi.md#get_score_responsible_list) | **GET** /score_responsibles/ | 
 *ScoreEncodingApi* | [**score_sheet_xls_export**](docs/ScoreEncodingApi.md#score_sheet_xls_export) | **GET** /{code}/xls_export | 
 *ScoreEncodingApi* | [**score_sheets_pdf_export**](docs/ScoreEncodingApi.md#score_sheets_pdf_export) | **GET** /pdf_export | 
@@ -107,6 +110,7 @@ Class | Method | HTTP request | Description
  - [CurrentSession](docs/CurrentSession.md)
  - [Error](docs/Error.md)
  - [ScoreResponsiblePerson](docs/ScoreResponsiblePerson.md)
+ - [SessionExam](docs/SessionExam.md)
 
 
 ## Documentation For Authorization
