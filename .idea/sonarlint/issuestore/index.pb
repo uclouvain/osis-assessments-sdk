@@ -13,3 +13,15 @@
 .osis_assessments_sdk/api/score_encoding_api.py,d/b/db4d8708f91dab7f6d5a9cfd296bf22731d18083
 R
 "osis_assessments_sdk/api_client.py,3/4/34779b6576e71eeed930fb12edb5f639cf71a374
+T
+$osis_assessments_sdk/api/__init__.py,3/8/3881ac412a90cc8cdb9e12227eb10f85f2b48012
+W
+'osis_assessments_sdk/models/__init__.py,e/7/e75ae03e0fdeba741ef26721966644cdac6177c3
+U
+%osis_assessments_sdk/configuration.py,b/6/b632f00e3376b13192a22714ef817ceee357c26f
+P
+ osis_assessments_sdk/__init__.py,e/9/e966917ba84d222ff42de0accffb58f49a6c2cf5
+]
+-osis_assessments_sdk/model/current_session.py,2/a/2ae51973cb4f63caad383721cae148399d08d65e
+E
+test-requirements.txt,1/6/1627bd3db0737f7810b0e23038883f57a87fb0dd

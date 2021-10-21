@@ -1,8 +1,8 @@
 
+rpython:S3776Ò"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ðù‡ðýÿÿÿÿ
+jpython:S107Ï"MMethod "call_api" has 17 parameters, which is greater than the 13 authorized.( Ðàþüÿÿÿÿ
 jpython:S1192º"QDefine a constant instead of duplicating this literal 'application/json' 5 times.(‘’ðÇ
 kpython:S107v"OMethod "__call_api" has 16 parameters, which is greater than the 13 authorized.( Ðàþüÿÿÿÿ
-`python:S1763Ò"GDelete this unreachable code or refactor the code to make it reachable.(°ï Ç
 lpython:S3776u"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(¯ïæÓ
-jpython:S107Ï"MMethod "call_api" has 17 parameters, which is greater than the 13 authorized.( Ðàþüÿÿÿÿ
+`python:S1763Ò"GDelete this unreachable code or refactor the code to make it reachable.(°ï Ç
 lpython:S3776ê"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(­Ýû{
-rpython:S3776Ò"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ðù‡ðýÿÿÿÿ
