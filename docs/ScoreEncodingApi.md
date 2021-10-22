@@ -13,7 +13,7 @@ Method | HTTP request | Description
 
 
 # **get_current_session**
-> CurrentSession get_current_session()
+> SessionExam get_current_session()
 
 
 
@@ -28,7 +28,7 @@ import osis_assessments_sdk
 from osis_assessments_sdk.api import score_encoding_api
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
 from osis_assessments_sdk.model.error import Error
-from osis_assessments_sdk.model.current_session import CurrentSession
+from osis_assessments_sdk.model.session_exam import SessionExam
 from pprint import pprint
 # Defining the host is optional and defaults to https://dev.osis.uclouvain.be/api/v1/assessments
 # See configuration.py for a list of all supported configuration parameters.
@@ -79,7 +79,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**CurrentSession**](CurrentSession.md)
+[**SessionExam**](SessionExam.md)
 
 ### Authorization
 
@@ -97,6 +97,7 @@ Name | Type | Description  | Notes
 **200** | OK |  -  |
 **400** | Bad request |  -  |
 **401** | Unauthorized |  -  |
+**404** | The specified resource was not found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -185,6 +186,7 @@ Name | Type | Description  | Notes
 **200** | OK |  -  |
 **400** | Bad request |  -  |
 **401** | Unauthorized |  -  |
+**404** | The specified resource was not found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -273,6 +275,7 @@ Name | Type | Description  | Notes
 **200** | OK |  -  |
 **400** | Bad request |  -  |
 **401** | Unauthorized |  -  |
+**404** | The specified resource was not found |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

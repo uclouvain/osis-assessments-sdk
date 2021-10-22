@@ -22,7 +22,6 @@ from osis_assessments_sdk.model_utils import (  # noqa: F401
     validate_and_convert_types
 )
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
-from osis_assessments_sdk.model.current_session import CurrentSession
 from osis_assessments_sdk.model.error import Error
 from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
 from osis_assessments_sdk.model.session_exam import SessionExam
@@ -81,7 +80,7 @@ class ScoreEncodingApi(object):
                 async_req (bool): execute request asynchronously
 
             Returns:
-                CurrentSession
+                SessionExam
                     If the method is called asynchronously, returns the request
                     thread.
             """
@@ -108,7 +107,7 @@ class ScoreEncodingApi(object):
 
         self.get_current_session = _Endpoint(
             settings={
-                'response_type': (CurrentSession,),
+                'response_type': (SessionExam,),
                 'auth': [
                     'Token'
                 ],

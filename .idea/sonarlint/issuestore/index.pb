@@ -25,3 +25,5 @@ P
 -osis_assessments_sdk/model/current_session.py,2/a/2ae51973cb4f63caad383721cae148399d08d65e
 E
 test-requirements.txt,1/6/1627bd3db0737f7810b0e23038883f57a87fb0dd
+Z
+*osis_assessments_sdk/model/session_exam.py,5/1/51d4699725634d2aa2ba6de994929f1dfa90aa30
