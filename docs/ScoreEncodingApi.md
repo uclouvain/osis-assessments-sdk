@@ -4,9 +4,9 @@ All URIs are relative to *https://dev.osis.uclouvain.be/api/v1/assessments*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**get_current_session**](ScoreEncodingApi.md#get_current_session) | **GET** /current_session/ | 
-[**get_next_session**](ScoreEncodingApi.md#get_next_session) | **GET** /next_session/ | 
-[**get_previous_session**](ScoreEncodingApi.md#get_previous_session) | **GET** /previous_session/ | 
+[**get_current_session**](ScoreEncodingApi.md#get_current_session) | **GET** /sessions/current/ | 
+[**get_next_session**](ScoreEncodingApi.md#get_next_session) | **GET** /sessions/next/ | 
+[**get_previous_session**](ScoreEncodingApi.md#get_previous_session) | **GET** /sessions/previous/ | 
 [**get_score_responsible_list**](ScoreEncodingApi.md#get_score_responsible_list) | **GET** /score_responsibles/ | 
 [**score_sheet_xls_export**](ScoreEncodingApi.md#score_sheet_xls_export) | **GET** /{code}/xls_export | 
 [**score_sheets_pdf_export**](ScoreEncodingApi.md#score_sheets_pdf_export) | **GET** /pdf_export | 

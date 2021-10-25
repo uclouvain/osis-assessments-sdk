@@ -21,8 +21,6 @@ U
 %osis_assessments_sdk/configuration.py,b/6/b632f00e3376b13192a22714ef817ceee357c26f
 P
  osis_assessments_sdk/__init__.py,e/9/e966917ba84d222ff42de0accffb58f49a6c2cf5
-]
--osis_assessments_sdk/model/current_session.py,2/a/2ae51973cb4f63caad383721cae148399d08d65e
 E
 test-requirements.txt,1/6/1627bd3db0737f7810b0e23038883f57a87fb0dd
 Z

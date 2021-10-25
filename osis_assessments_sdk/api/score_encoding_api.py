@@ -111,7 +111,7 @@ class ScoreEncodingApi(object):
                 'auth': [
                     'Token'
                 ],
-                'endpoint_path': '/current_session/',
+                'endpoint_path': '/sessions/current/',
                 'operation_id': 'get_current_session',
                 'http_method': 'GET',
                 'servers': None,
@@ -248,7 +248,7 @@ class ScoreEncodingApi(object):
                 'auth': [
                     'Token'
                 ],
-                'endpoint_path': '/next_session/',
+                'endpoint_path': '/sessions/next/',
                 'operation_id': 'get_next_session',
                 'http_method': 'GET',
                 'servers': None,
@@ -385,7 +385,7 @@ class ScoreEncodingApi(object):
                 'auth': [
                     'Token'
                 ],
-                'endpoint_path': '/previous_session/',
+                'endpoint_path': '/sessions/previous/',
                 'operation_id': 'get_previous_session',
                 'http_method': 'GET',
                 'servers': None,
