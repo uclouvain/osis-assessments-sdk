@@ -11,5 +11,7 @@
 
 from osis_assessments_sdk.model.accepted_language_enum import AcceptedLanguageEnum
 from osis_assessments_sdk.model.error import Error
+from osis_assessments_sdk.model.learning_unit_progress import LearningUnitProgress
+from osis_assessments_sdk.model.progress_overview import ProgressOverview
 from osis_assessments_sdk.model.score_responsible_person import ScoreResponsiblePerson
 from osis_assessments_sdk.model.session_exam import SessionExam

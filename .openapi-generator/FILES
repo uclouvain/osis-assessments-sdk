@@ -4,6 +4,8 @@
 README.md
 docs/AcceptedLanguageEnum.md
 docs/Error.md
+docs/LearningUnitProgress.md
+docs/ProgressOverview.md
 docs/ScoreEncodingApi.md
 docs/ScoreResponsiblePerson.md
 docs/SessionExam.md
@@ -18,6 +20,8 @@ osis_assessments_sdk/exceptions.py
 osis_assessments_sdk/model/__init__.py
 osis_assessments_sdk/model/accepted_language_enum.py
 osis_assessments_sdk/model/error.py
+osis_assessments_sdk/model/learning_unit_progress.py
+osis_assessments_sdk/model/progress_overview.py
 osis_assessments_sdk/model/score_responsible_person.py
 osis_assessments_sdk/model/session_exam.py
 osis_assessments_sdk/model_utils.py
